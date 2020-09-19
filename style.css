@@ -1,0 +1,23 @@
+body{
+    background-color: #9d9bac36;
+    font-family: 'Libre Caslon Display', serif;
+    text-align: center;
+}
+
+img {    
+    border-radius: 50%;
+    float: left; 
+}
+
+h1 {
+    font-size: 48px;
+    }
+p  {
+    font-size: 28px;
+    }
+.tip {
+    padding: 25px;
+}
+a   {font-size: 25px;
+    color: #1a1a1a36;
+}
