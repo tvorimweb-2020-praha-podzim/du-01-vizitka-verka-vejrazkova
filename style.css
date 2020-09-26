@@ -1,23 +1,73 @@
-body{
-    background-color: #9d9bac36;
-    font-family: 'Libre Caslon Display', serif;
-    text-align: center;
+html {
+  box-sizing: border-box;
 }
 
-img {    
-    border-radius: 50%;
-    float: left; 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #9d9bac36;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+header {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 1rem;
+  background-color: hsla(323, 80%, 12%, 0.192);
+  display: flow-root;
+  
+}
+
+section {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 1rem;
+  background-color: hsla(323, 80%, 12%, 0.192);
+  border-bottom: 0.3rem dotted hsla(323, 80%, 12%, 0.76);
+  display: flow-root;
+}
+
+.fotogalerie img {
+  border-radius: 50%;
+  float: bottom;
+  width: 210px;
+  height: 210px;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 h1 {
-    font-size: 48px;
-    }
-p  {
-    font-size: 28px;
-    }
-.tip {
-    padding: 25px;
+  font-size: 3rem;
 }
-a   {font-size: 25px;
-    color: #1a1a1a36;
+p {
+  font-size: 1.5rem;
 }
+
+.menu {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: 0;
+  text-align: center;
+  background-color: hsla(326, 16%, 75%, 0.767);
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+  padding: 1rem;
+}
+
+.hlavicka {
+  background-image: url(obrazky/back2.jpg);
+ }

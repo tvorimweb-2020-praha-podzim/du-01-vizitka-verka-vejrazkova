@@ -1,41 +1,86 @@
-<!--
-Vytvoř osobní vizitku se:
-
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
-
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link    rel="stylesheet"    href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libre+Caslon+Display&family=Lilita+One&display=swap" rel="stylesheet">
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vizitka Věra Vejražková</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="hlavicka">
+      <h1>Věra Vejražková</h1>
+    </header>
 
-</head>
-<body>
-    <div>
-        <img src="obrazky2\Verka.jpg" alt="foto Verka">
-        <h1 class="tip">Věra Vejražková</h1>
-        <p class="tip"> Vystudovala jsem Filozofii na Technické univerzitě v Liberci a Univerzitě Hradec Králové. Pracovala jsem jako softwarová konzultantka a asistentka. Zajímám se o Tchaj-ťi a psychologii. Aktuálně jsem na mateřské dovolené.</p>
-        <p><a href="https://www.linkedin.com/in/v%C4%9Bra-vejra%C5%BEkov%C3%A1-a876541b7/" target="_blank">Linkedin</a></p>
-        
-        <p><a href="mailto:verka.vejrazkova@seznam.cz">verka.vejrazkova@seznam.cz</a></p>
-    </div>
-
-</body>
+    <nav class="menu">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="index.html#index">Domů</a>
+          </li>
+          <li>
+            <a href="#fotogalerie">Fotogalerie</a>
+          </li>
+          <li>
+            <a href="#o-me">O mě</a>
+          </li>
+          <li>
+            <a href="kontakt.html#kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
 </html>
+
+<section class="fotogalerie">
+  <h2 Fotogalerie id="fotogalerie" class="text-center"></h2>
+  <img src="obrazky\Verka.jpg" alt="Věrka Vejražková" />
+  <img src="obrazky\šití 3.jpg" alt="nitě" />
+  <img src="obrazky\křídy.jpg" alt="křídy" />
+  <img src="obrazky\taiji.jpg" alt="taiji" />
+  <img src="obrazky\AI.jpg" alt="artificial intelligence" />
+  <img src="obrazky\umělá inteligence.jpg" alt="umělá inteligence" />
+  <img src="obrazky\kod.jpg" alt="kod" />
+</section>
+
+<section>
+  <h2 O mě id="o-me" class="text-center">O mě</h2> 
+
+    <nav class="Pozice">
+      <div class="container">
+        <h2>Pracovní zkušenosti</h2>
+    <ul>
+      <li>
+        2013-2016 Vcomfort s.r.o. - zpracování podkladů k EU projektům, komunikace se zákazníky, školení zákazníků
+      </li>
+      
+    </ul>
+
+    <h2>Pracovní zkušenosti při studiu</h2>
+    <ul>
+      <li>
+        2010 Boxed s.r.o. - komunikace se zákazníky, call centrum
+      </li>
+      
+    </ul>
+
+
+    <h2>Vzdělání</h2>
+    <ul>
+      <li>
+        2010-2013 Univerzita Hradec Králové, Filozofická fakulta, obor Filozofie (získán titul Mgr.)
+      </li>
+      <li>
+        2008-2010 Technická univerzita v Liberci, Fakulta přírodovědně-humanitní a pedagogická, obor Filozofie humanitních věd (získán titul Bc.)
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+  </p>
+
+
+</section>
